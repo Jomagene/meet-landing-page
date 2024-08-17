@@ -21,7 +21,6 @@ svg {
 }
 
 p,
-h1,
 h2 {
   overflow-wrap: break-word;
 }
@@ -29,4 +28,4 @@ h2 {
 #root,
 #__next {
   isolation: isolate;
-}
+}/*# sourceMappingURL=style.css.map */
