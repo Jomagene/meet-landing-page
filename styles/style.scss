@@ -14,3 +14,58 @@ $slate-300: hsl(220, 16%, 73%);
 body {
   background-color: $white;
 }
+
+header {
+  img.logo {
+    margin: 3rem auto 0;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    figure {
+      position: relative;
+      img {
+        width: 100%;
+        position: absolute;
+      }
+    }
+    .hero-left,
+    .hero-right {
+      display: none;
+    }
+    .hero-img {
+      display: block;
+      img {
+        left: -1.62rem;
+        right: -1.62rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 48rem) {
+  header {
+    img.logo {
+      margin-top: 5rem;
+    }
+    section {
+      flex-direction: row;
+      justify-content: space-between;
+      .hero-left,
+      .hero-right {
+        display: block;
+        width: 24.625rem;
+      }
+      .hero-left img {
+        left: -1.62rem;
+      }
+      .hero-right img {
+        right: -1.62rem;
+      }
+      .hero-img {
+        display: none;
+      }
+    }
+  }
+}

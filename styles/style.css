@@ -14,10 +14,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img,
-svg {
+img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  font: inherit;
 }
 
 p,
@@ -33,4 +36,55 @@ h2 {
 
 body {
   background-color: hsl(0, 0%, 100%);
+}
+
+header img.logo {
+  margin: 3rem auto 0;
+}
+header section {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+header section figure {
+  position: relative;
+}
+header section figure img {
+  width: 100%;
+  position: absolute;
+}
+header section .hero-left,
+header section .hero-right {
+  display: none;
+}
+header section .hero-img {
+  display: block;
+}
+header section .hero-img img {
+  left: -1.62rem;
+  right: -1.62rem;
+}
+
+@media (min-width: 48rem) {
+  header img.logo {
+    margin-top: 5rem;
+  }
+  header section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header section .hero-left,
+  header section .hero-right {
+    display: block;
+    width: 24.625rem;
+  }
+  header section .hero-left img {
+    left: -1.62rem;
+  }
+  header section .hero-right img {
+    right: -1.62rem;
+  }
+  header section .hero-img {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
