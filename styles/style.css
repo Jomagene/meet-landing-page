@@ -21,6 +21,7 @@ svg {
 }
 
 p,
+h1,
 h2 {
   overflow-wrap: break-word;
 }
@@ -28,4 +29,8 @@ h2 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
 }/*# sourceMappingURL=style.css.map */

@@ -2,3 +2,15 @@
 @import "reset";
 
 // Color variables
+$white: hsl(0, 0%, 100%);
+$cyan-600: hsl(185, 61%, 50%);
+$cyan-300: hsl(190, 78%, 74%);
+$purple-600: hsl(268, 49%, 48%);
+$purple-300: hsl(270, 62%, 75%);
+$slate-900: hsl(220, 26%, 20%);
+$slate-600: hsl(218, 20%, 46%);
+$slate-300: hsl(220, 16%, 73%);
+
+body {
+  background-color: $white;
+}
