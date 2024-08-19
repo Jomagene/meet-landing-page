@@ -14,6 +14,12 @@ $slate-300: hsl(220, 16%, 73%);
 body {
   background-color: $white;
   font-family: "Red Hat Display", sans-serif;
+  header,
+  main,
+  footer {
+    max-width: 90rem;
+    margin: 0 auto;
+  }
 }
 h1 {
   font-size: 4rem;
@@ -48,40 +54,38 @@ header {
   section {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 4.5rem;
     padding: 4rem 0;
     overflow: hidden;
-    figure {
-      position: relative;
-      img {
-        position: absolute;
-      }
-    }
+
     .hero-left,
     .hero-right {
       display: none;
     }
     .hero-img {
       display: block;
-      width: 100%;
       img {
-        left: -1.62rem;
-        right: -1.62rem;
         width: calc(100% + 3.24rem);
+        position: relative;
+        left: -1.62rem;
       }
     }
     .header-actions {
       width: 28.01875rem;
-      margin: 1.4375rem;
+      margin: 1.4375rem auto;
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 2rem;
+      .actions {
+        display: flex;
+        gap: 1.0625rem;
+      }
     }
   }
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 75rem) {
   header {
     img.logo {
       margin-top: 5rem;
@@ -89,6 +93,13 @@ header {
     section {
       flex-direction: row;
       justify-content: space-between;
+      .hero-left,
+      .hero-right {
+        position: relative;
+        img {
+          position: absolute;
+        }
+      }
       .hero-left,
       .hero-right {
         display: block;

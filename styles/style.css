@@ -37,6 +37,12 @@ body {
   background-color: hsl(0, 0%, 100%);
   font-family: "Red Hat Display", sans-serif;
 }
+body header,
+body main,
+body footer {
+  max-width: 90rem;
+  margin: 0 auto;
+}
 
 h1 {
   font-size: 4rem;
@@ -73,15 +79,9 @@ header img.logo {
 header section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 4.5rem;
   padding: 4rem 0;
   overflow: hidden;
-}
-header section figure {
-  position: relative;
-}
-header section figure img {
-  position: absolute;
 }
 header section .hero-left,
 header section .hero-right {
@@ -89,29 +89,40 @@ header section .hero-right {
 }
 header section .hero-img {
   display: block;
-  width: 100%;
 }
 header section .hero-img img {
-  left: -1.62rem;
-  right: -1.62rem;
   width: calc(100% + 3.24rem);
+  position: relative;
+  left: -1.62rem;
 }
 header section .header-actions {
   width: 28.01875rem;
-  margin: 1.4375rem;
+  margin: 1.4375rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
 }
+header section .header-actions .actions {
+  display: flex;
+  gap: 1.0625rem;
+}
 
-@media (min-width: 48rem) {
+@media (min-width: 75rem) {
   header img.logo {
     margin-top: 5rem;
   }
   header section {
     flex-direction: row;
     justify-content: space-between;
+  }
+  header section .hero-left,
+  header section .hero-right {
+    position: relative;
+  }
+  header section .hero-left img,
+  header section .hero-right img {
+    position: absolute;
   }
   header section .hero-left,
   header section .hero-right {
