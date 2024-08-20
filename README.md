@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution here](https://your-solution-url.com)
+- Live Site URL: [Live site](https://jomagene.github.io/meet-landing-page/)
 
 ## My process
 
@@ -41,8 +41,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
+- Sass/SCSS
 
 ### What I learned
 

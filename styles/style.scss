@@ -39,17 +39,27 @@ button {
   border: none;
   font-weight: 900;
   color: $white;
+  text-wrap: nowrap;
+  transition: 0.25s;
 }
 .cyan-btn {
   background-color: $cyan-600;
   strong {
     color: $cyan-300;
   }
+  &:hover {
+    cursor: pointer;
+    background-color: hsl(188, 70%, 62%);
+  }
 }
 .purple-btn {
   background-color: $purple-600;
   strong {
     color: $purple-300;
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: hsl(269, 55%, 60%);
   }
 }
 
@@ -78,8 +88,9 @@ header {
       }
     }
     .header-actions {
-      max-width: 28.01875rem;
-      margin: 1.4375rem 2rem;
+      max-width: 32.01875rem;
+      margin: 1.4375rem auto;
+      padding: 0 2rem;
       display: flex;
       flex-direction: column;
       align-items: center;
