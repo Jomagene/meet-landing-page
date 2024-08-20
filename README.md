@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution here](https://your-solution-url.com)
+- Solution URL: [My solution here](https://www.frontendmentor.io/solutions/meet-landing-page-using-sassscss-flexbox-and-media-queries-xdq8mZXkJW)
 - Live Site URL: [Live site](https://jomagene.github.io/meet-landing-page/)
 
 ## My process
@@ -46,9 +46,16 @@ Users should be able to:
 
 ### What I learned
 
+In this project, I reinforced my skills in responsive design by using a mobile-first approach. Sass/SCSS allowed me to write more maintainable and reusable CSS. I also practiced using Flexbox for layout management, which provided flexibility across different screen sizes.
+
 ### Continued development
 
+Moving forward, I plan to explore CSS Grid for more complex layouts. Additionally, I would like to refine my use of Sass by incorporating mixins to further improve code efficiency and reusability.
+
 ### Useful resources
+
+- [MDN Web Docs - Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - This was helpful for understanding Flexbox properties and ensuring the layout is responsive.
+- [Sass Documentation](https://sass-lang.com/documentation) - Provided insights into leveraging Sass for better CSS organization.
 
 ## Author
 
@@ -56,3 +63,5 @@ Users should be able to:
 - Twitter - [@Jomagene](https://www.twitter.com/Jomagene)
 
 ## Acknowledgments
+
+I would like to thank the Frontend Mentor community for their feedback and encouragement. The challenge pushed me to enhance my skills in responsive design and Sass/SCSS.
