@@ -231,6 +231,9 @@ footer .footer-content button {
   }
 }
 @media (min-width: 75rem) {
+  p {
+    font-size: 1.125rem;
+  }
   header img.logo {
     margin-top: 5rem;
   }
@@ -262,7 +265,30 @@ footer .footer-content button {
   header section .hero-img {
     display: none;
   }
+  header section .h1 {
+    font-size: 4rem;
+  }
   main .figures {
     gap: 2rem;
+  }
+  main section .devise {
+    font-size: 1rem;
+  }
+  main section h1 {
+    max-width: 27.8125rem;
+    font-size: 2.25rem;
+  }
+  footer .footer-content {
+    padding: 4rem 10rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .footer-content h1 {
+    font-size: 2.5rem;
+    max-width: 27.8125rem;
+  }
+  footer .footer-content p {
+    max-width: 22.1875rem;
+    text-align: start;
   }
 }/*# sourceMappingURL=style.css.map */
