@@ -54,7 +54,7 @@ h1 {
 
 p {
   color: hsl(218, 20%, 46%);
-  font-size: 1;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -88,6 +88,7 @@ header section {
   flex-direction: column;
   gap: 3rem;
   padding-top: 4rem;
+  padding-bottom: 2rem;
   overflow: hidden;
 }
 header section .hero-left,
@@ -104,8 +105,7 @@ header section .hero-img img {
 }
 header section .header-actions {
   max-width: 28.01875rem;
-  margin: 0 auto 2rem;
-  padding: 0 2rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -200,8 +200,34 @@ footer .footer-content button {
 }
 
 @media (min-width: 45rem) {
-  h1 {
-    font-size: 4rem;
+  header .hero {
+    padding-bottom: 4rem;
+  }
+  header .hero .header-actions h1 {
+    font-size: 3rem;
+  }
+  main {
+    padding: 3.5rem 2rem 4rem;
+  }
+  main .figures {
+    gap: 1.5rem;
+  }
+  main section {
+    max-width: 31.5rem;
+  }
+  main section .devise {
+    font-size: 0.875rem;
+  }
+  main section h1 {
+    max-width: 27.8125rem;
+    font-size: 2.25rem;
+  }
+  footer .footer-content h1,
+  footer .footer-content p {
+    max-width: 31.5rem;
+  }
+  footer .footer-content h1 {
+    font-size: 2.8125rem;
   }
 }
 @media (min-width: 75rem) {
